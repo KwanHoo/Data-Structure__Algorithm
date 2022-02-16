@@ -27,5 +27,7 @@
 📌PYTHON 
 - [📝 백준8958번 _'OX퀴즈'](https://blog.naver.com/hwankko27/222644834399)
 - [📝 백준1546번 _'평균'](https://blog.naver.com/hwankko27/222644899701)
+- [📝 백준2839번 _'설탕배달'](https://blog.naver.com/hwankko27/222648986749)
+
 ###  💎 Programmers
 ###  💎 자료구조 & 알고리즘
