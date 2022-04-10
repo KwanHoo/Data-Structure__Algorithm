@@ -12,7 +12,8 @@ def in_post_to_pre(in_l, in_r, post_l, post_r):
     if in_l > in_r or post_l > post_r:
         return
     root = post_order[post_r]
-    mid = in_order.index(root)
+    mid = pos[root]
+    # mid = in_order.index(root)
     left = mid - in_l
     right = in_r - mid
     print(root, end=" ")
