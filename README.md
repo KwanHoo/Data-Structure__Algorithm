@@ -33,6 +33,16 @@
 - [📝 백준8958번 _'OX퀴즈'](https://blog.naver.com/hwankko27/222644834399)
 - [📝 백준1546번 _'평균'](https://blog.naver.com/hwankko27/222644899701)
 - [📝 백준2839번 _'설탕배달'](https://blog.naver.com/hwankko27/222648986749)
+- [📝 백준24060번 _'병합정렬1'](https://blog.naver.com/hwankko27/222656003687)
+- [📝 백준14503번 _'로봇청소기'](https://moriah-blog.tistory.com/5)
+- [📝 백준4881번 _'자리수의 제곱'](https://moriah-blog.tistory.com/6)
+- [📝 백준2630번 _'색종이 만들기'](https://moriah-blog.tistory.com/8)
+- [📝 백준4256번 _'트리'](https://moriah-blog.tistory.com/9)
+- [📝 백준2263번 _'트리의 순회'](https://moriah-blog.tistory.com/11)
 
 ###  💎 Programmers
 ###  💎 자료구조 & 알고리즘
+- [📝 Python 기초 _'문자열함수 | 파일 | 튜플,리스트'](https://moriah-blog.tistory.com/3)
+- [📝 Python 기초 _'딕셔너리 | JSON | 집합'](https://moriah-blog.tistory.com/4)
+- [📝 Python 기초 _'lambda | map | filter'](https://moriah-blog.tistory.com/7)
+- [📝 코드업 _'Python 기초 100제_1'](https://moriah-blog.tistory.com/10)
