@@ -5,7 +5,8 @@
 
 import sys
 sys.setrecursionlimit(10**5)
-##! 10*4(기본)로 하면 런타임 에러..
+# print(sys.getrecursionlimit())
+##! 10**4(기본)로 하면 런타임 에러..
 ##! 10**6 이상 으로하면 메모리 초과가뜸..
 
 def in_post_to_pre(in_l, in_r, post_l, post_r):
