@@ -39,6 +39,9 @@
 - [📝 백준2630번 _'색종이 만들기'](https://moriah-blog.tistory.com/8)
 - [📝 백준4256번 _'트리'](https://moriah-blog.tistory.com/9)
 - [📝 백준2263번 _'트리의 순회'](https://moriah-blog.tistory.com/11)
+- [📝 백준2740번 _'수 정렬하기'](https://moriah-blog.tistory.com/entry/%EB%B0%B1%EC%A4%80-2750%EB%B2%88-%EC%88%98-%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0-beakjoon-python-%ED%92%80%EC%9D%B4)
+- [📝 백준1003번 _'피보나치 함수'](https://moriah-blog.tistory.com/entry/%EB%B0%B1%EC%A4%80-1003%EB%B2%88-%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98-%ED%95%A8%EC%88%98-%EB%8F%99%EC%A0%81-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-Python-%ED%92%80%EC%9D%B4)
+
 
 ###  💎 Programmers
 ###  💎 자료구조 & 알고리즘
