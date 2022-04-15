@@ -41,7 +41,9 @@
 - [📝 백준2263번 _'트리의 순회'](https://moriah-blog.tistory.com/11)
 - [📝 백준2740번 _'수 정렬하기'](https://moriah-blog.tistory.com/entry/%EB%B0%B1%EC%A4%80-2750%EB%B2%88-%EC%88%98-%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0-beakjoon-python-%ED%92%80%EC%9D%B4)
 - [📝 백준1003번 _'피보나치 함수'](https://moriah-blog.tistory.com/entry/%EB%B0%B1%EC%A4%80-1003%EB%B2%88-%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98-%ED%95%A8%EC%88%98-%EB%8F%99%EC%A0%81-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-Python-%ED%92%80%EC%9D%B4)
-
+- [📝 백준2480번 _'주사위 세개'](https://moriah-blog.tistory.com/entry/%EB%B0%B1%EC%A4%80-2480%EB%B2%88-%EC%A3%BC%EC%82%AC%EC%9C%84-%EC%84%B8%EA%B0%9C-%EC%A1%B0%EA%B1%B4%EB%AC%B8-python-%ED%92%80%EC%9D%B4#%F-%-F%--%B-%--submission%--code)
+- [📝 백준2011번 _'암호코드'](https://moriah-blog.tistory.com/entry/%EB%B0%B1%EC%A4%80-2011%EB%B2%88-%EC%95%94%ED%98%B8%EC%BD%94%EB%93%9C-DP-python-%ED%92%80%EC%9D%B4)
+- [📝 백준12852번 _'1로 만들기 2'](https://moriah-blog.tistory.com/entry/%EB%B0%B1%EC%A4%80-12852-1%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-2-python-%ED%92%80%EC%9D%B4)
 
 ###  💎 Programmers
 ###  💎 자료구조 & 알고리즘
