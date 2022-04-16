@@ -44,7 +44,9 @@
 - [📝 백준2480번 _'주사위 세개'](https://moriah-blog.tistory.com/entry/%EB%B0%B1%EC%A4%80-2480%EB%B2%88-%EC%A3%BC%EC%82%AC%EC%9C%84-%EC%84%B8%EA%B0%9C-%EC%A1%B0%EA%B1%B4%EB%AC%B8-python-%ED%92%80%EC%9D%B4#%F-%-F%--%B-%--submission%--code)
 - [📝 백준2011번 _'암호코드'](https://moriah-blog.tistory.com/entry/%EB%B0%B1%EC%A4%80-2011%EB%B2%88-%EC%95%94%ED%98%B8%EC%BD%94%EB%93%9C-DP-python-%ED%92%80%EC%9D%B4)
 - [📝 백준12852번 _'1로 만들기 2'](https://moriah-blog.tistory.com/entry/%EB%B0%B1%EC%A4%80-12852-1%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-2-python-%ED%92%80%EC%9D%B4)
-
+- [📝 백준9498번 _'시험성적'](https://moriah-blog.tistory.com/entry/%EB%B0%B1%EC%A4%80-9498-%EC%8B%9C%ED%97%98%EC%84%B1%EC%A0%81-python-%ED%92%80%EC%9D%B4)
+- [📝 백준2753번 _'윤년'](https://moriah-blog.tistory.com/entry/%EB%B0%B1%EC%A4%80-2753-%EC%9C%A4%EB%85%84-python-%ED%92%80%EC%9D%B4)
+- [📝 백준2884번 _'알람시계'](https://moriah-blog.tistory.com/entry/%EB%B0%B1%EC%A4%80-2884-%EC%95%8C%EB%9E%8C%EC%8B%9C%EA%B3%84-python-%ED%92%80%EC%9D%B4)
 ###  💎 Programmers
 ###  💎 자료구조 & 알고리즘
 - [📝 Python 기초 _'문자열함수 | 파일 | 튜플,리스트'](https://moriah-blog.tistory.com/3)
