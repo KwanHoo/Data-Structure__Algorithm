@@ -1,0 +1,16 @@
+-- 프로그래머스
+-- SQL 고득점 Kit : SELECT
+-- 3월에 태어난 여성 회원 목록 출력하기
+
+--MySQL
+SELECT
+    MEMBER_ID,
+    MEMBER_NAME,
+    GENDER,
+    SUBSTRING(DATE_OF_BIRTH, 1, 10)
+FROM
+    MEMBER_PROFILE
+WHERE TLNO IS NOT NULL
+    AND GENDER = 'W'
+    AND SUBSTRING(DATE_OF_BIRTH, 6, 2) = '03'
+ORDER BY MEMBER_ID
