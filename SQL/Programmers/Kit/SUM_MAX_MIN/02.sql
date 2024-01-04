@@ -1,0 +1,13 @@
+-- 프로그래머스
+-- SQL 고득점 Kit : SUM, MAX, MIN
+-- 가장 비싼 상품 구하기
+
+-- ORACLE
+SELECT
+    MAX(PRICE) MAX_PRICE
+FROM PRODUCT
+
+-- MySQL
+SELECT
+    MAX(PRICE) MAX_PRICE
+FROM PRODUCT
