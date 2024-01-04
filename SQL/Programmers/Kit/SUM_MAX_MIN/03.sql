@@ -1,0 +1,13 @@
+-- 프로그래머스
+-- SQL 고득점 Kit : SUM, MAX, MIN
+-- 최댓값 구하기
+
+-- ORACLE
+SELECT
+    MAX(DATETIME) AS "시간"
+FROM ANIMAL_INS
+
+-- MySQL
+SELECT
+    MAX(DATETIME) AS "시간"
+FROM ANIMAL_INS
