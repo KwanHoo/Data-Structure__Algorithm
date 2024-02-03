@@ -1,0 +1,22 @@
+-- 프로그래머스
+-- SQL 고득점 Kit : SELECT
+-- 조건에 부합하는 중고거래 댓글 조회하기
+
+SELECT
+    A.TITLE,
+    A.BOARD_ID,
+    B.REPLY_ID,
+    B.WRITER_ID,
+    B.CONTENTS,
+    DATE_FORMAT(B.CREATED_DATE, '%Y-%m-%d') AS CREATED_DATE
+FROM
+    USED_GOODS_BOARD A
+JOIN
+    USED_GOODS_REPLY B
+ON A.BOARD_ID = B.BOARD_ID
+WHERE
+    SUBSTR(A.CREATED_DATE,1,7) = '2022-10'
+ORDER BY
+    B.CREATED_DATE ASC, A.TITLE ASC
+
+-- 참고! SUBSTRING 사용하니 체점 틀렸다고 나옴..
