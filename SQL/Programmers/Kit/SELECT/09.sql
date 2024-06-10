@@ -2,6 +2,7 @@
 -- SQL 고득점 Kit : SELECT
 -- 조건에 부합하는 중고거래 댓글 조회하기
 
+-- MySQL
 SELECT
     A.TITLE,
     A.BOARD_ID,
@@ -17,6 +18,59 @@ ON A.BOARD_ID = B.BOARD_ID
 WHERE
     SUBSTR(A.CREATED_DATE,1,7) = '2022-10'
 ORDER BY
-    B.CREATED_DATE ASC, A.TITLE ASC
+    B.CREATED_DATE ASC, A.TITLE ASC;
 
+
+-- ORACLE
 -- 참고! SUBSTRING 사용하니 체점 틀렸다고 나옴..
+-- 1) 틀렸다 나오는 풀이
+SELECT
+    A.TITLE,
+    A.BOARD_ID,
+    B.REPLY_ID,
+    B.WRITER_ID,
+    B.CONTENTS,
+    TO_CHAR(B.CREATED_DATE, 'YYYY-MM-DD') AS CREATED_DATE
+FROM
+    USED_GOODS_BOARD A
+INNER JOIN
+    USED_GOODS_REPLY B
+ON A.BOARD_ID = B.BOARD_ID
+WHERE
+    TO_CHAR(B.CREATED_DATE, 'YYYY-MM') = '2022-10'
+ORDER BY
+    B.CREATED_DATE ASC, A.TITLE ASC;
+
+-- 2) 유사 풀이 참고
+SELECT B.TITLE
+,      B.BOARD_ID
+,      R.REPLY_ID
+,      R.WRITER_ID
+,      R.CONTENTS
+,      TO_CHAR(R.CREATED_DATE, 'YYYY-MM-DD') AS CREATED_DATE
+FROM USED_GOODS_BOARD B
+,    USED_GOODS_REPLY R
+WHERE TO_CHAR(B.CREATED_DATE, 'YYYY-MM') = '2022-10'
+AND B.BOARD_ID = R.BOARD_ID
+ORDER BY R.CREATED_DATE, B.TITLE;
+
+
+-- 3) BETWEEN
+SELECT
+    A.TITLE,
+    A.BOARD_ID,
+    B.REPLY_ID,
+    B.WRITER_ID,
+    B.CONTENTS,
+    to_char(B.CREATED_DATE, 'yyyy-mm-dd') created_date
+-- 5. 게시물 제목, 게시글ID, 댓글ID, 댓글 작성자ID, 댓글 내용, 댓글 작성일('yyyy-mm-dd'형식)을 조회
+from USED_GOODS_BOARD A, USED_GOODS_REPLY B
+-- 1. A(USED_GOODS_BOARD) 테이블과 B(USED_GOODS_REPLY)에서
+where A.BOARD_ID = B.BOARD_ID
+-- 2. A.BOARD_ID(게시글ID)와 B.BOARD_ID가 같고,
+and A.CREATED_DATE
+-- 3. A.CREATED_DATE(게시글 작성일)가
+between to_date('2022-10-01', 'yyyy-mm-dd') and to_date('2022-10-31', 'yyyy-mm-dd')
+-- 2022-10-01부터 2022-10-31 사이이고,
+order by B.CREATED_DATE asc, A.TITLE asc
+-- 4. B.CREATED_DATE(댓글 작성일)과 A.TITLE(게시글 제목) 순으로 나열한 테이블에서
