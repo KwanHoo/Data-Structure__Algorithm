@@ -1,0 +1,14 @@
+-- LV1
+-- SELECT
+-- 강원도에 위치한 생산공장 목록 출력하기
+
+SELECT
+    FACTORY_ID
+    ,FACTORY_NAME
+    ,ADDRESS
+FROM
+    FOOD_FACTORY
+WHERE
+    SUBSTR(ADDRESS, 1, 3) LIKE '강원도'
+ORDER BY
+    FACTORY_ID ASC
