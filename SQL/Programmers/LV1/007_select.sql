@@ -1,0 +1,12 @@
+-- LV1
+-- SELECT
+-- 조건에 맞는 회원수 구하기
+
+-- mysql
+SELECT
+    COUNT(USER_ID) AS USERS
+FROM
+    USER_INFO
+WHERE
+    SUBSTR(JOINED, 1, 4) = '2021'
+    AND AGE BETWEEN 20 AND 29
