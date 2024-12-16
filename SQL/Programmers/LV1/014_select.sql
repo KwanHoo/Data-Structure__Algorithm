@@ -1,0 +1,12 @@
+-- LV1
+-- SELECT
+-- 상위 n개 레코드
+
+-- mysql
+SELECT
+    NAME
+FROM
+    ANIMAL_INS
+ORDER BY
+    DATETIME ASC
+LIMIT 1
