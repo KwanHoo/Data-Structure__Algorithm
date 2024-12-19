@@ -1,0 +1,12 @@
+-- LV2
+-- SUM, MAX, MIN
+-- 중복 제거하기
+
+SELECT
+    COUNT(DISTINCT NAME)
+FROM
+    ANIMAL_INS
+WHERE
+    NAME IS NOT NULL
+
+-- DISTINCT : 중복제거
