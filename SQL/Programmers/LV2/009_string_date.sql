@@ -1,0 +1,13 @@
+-- LV2
+-- String, Date
+-- 카테고리 별 상품 개수 구하기
+
+SELECT
+    SUBSTR(PRODUCT_CODE, 1, 2) CATEGORY,
+    COUNT(PRODUCT_ID) PRODUCTS
+FROM
+    PRODUCT
+GROUP BY
+    SUBSTR(PRODUCT_CODE, 1, 2)
+ORDER BY
+    1
